@@ -6,11 +6,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;
+  display: flex;
 }
 
 
 .boxes {
-  width: 35%;
+  width: 85%;
   height: 100px;
   justify-content: space-between;
   display: flex;
@@ -61,5 +62,60 @@
 }
 
 .call{
+  text-align: center;
+}
+
+.container .containers{
+  width: 50%;
+  height: 100vh;
+  border-right: 1px solid #000;
+}
+
+.swiper{
+  margin-top: 15px;
+  width: 400px;
+  height: 500px;
+}
+
+.swiperstyle{
+  border-radius: 15%;
+}
+
+.swiperstyle img {
+  object-fit: cover;
+  min-width: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.swipershadow{
+  margin-top: 35px;
+  border-radius: 40%;
+  background-color: rgba(0, 0, 0, 0.384);
+  width: 80px;
+  height: 480px;
+}
+
+.swipermain{
+  margin-left: 130px;
+}
+
+.main{
+  display: flex;
+}
+.textbox{
+  background-color: rgba(255, 255, 255, 0.37);
+  border-radius: 3%;
+  margin-top: 50px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 39px;
+  display: flex;
+  color: #000000;
+}
+
+.title{
   text-align: center;
 }
